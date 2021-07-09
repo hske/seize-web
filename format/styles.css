@@ -1,0 +1,80 @@
+*{
+    margin: 0;padding: 0;
+}
+#particles-js{
+    background-image: url(image/me.jpeg);
+    background-size: cover;
+    height: 920px
+}
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../content/background.png) center center / cover no-repeat fixed;
+}
+.header {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: lora;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-shadow: 2px 2px 2px rgb(161, 154, 154);
+    transform: translateX(-50%) translateY(-50%);
+}
+.text1 {
+    font-size: 2.6em;
+    margin: 0;
+    padding: 0;
+    font-family: lora;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    text-shadow: 2px 2px 2px rgb(161, 154, 154);
+    transform: translateX(-50%) translateY(-50%);
+}
+.text2 {
+    font-size: 2.6em;
+    margin: 0;
+    padding: 0;
+    font-family: lora;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    text-shadow: 2px 2px 2px rgb(161, 154, 154);
+    transform: translateX(-50%) translateY(-50%);
+}
+.copyright {
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+    font-family: lora;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    text-shadow: 2px 2px 2px rgb(95, 95, 95);
+    transform: translateX(-50%) translateY(-50%); 
+}
+.discordicon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 890px;
+    left: 15px;
+}
+.twittericon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 893px;
+    left: 72px;
+}
